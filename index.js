@@ -1,17 +1,13 @@
 // Load our dependencies
 
 var mkdirp = require('mkdirp');
-var assert = require('assert');
-var async = require('async');
 var argv = require('yargs').argv;
 var fs = require('fs');
 var path = require('path');
 var _ = require('underscore');
-var vinyl = require('vinyl');
 var Minimatch = require('minimatch').Minimatch;
 var templater = require('spritesheet-templates');
 var Spritesmith = require('spritesmith');
-var through2 = require('through2');
 var url = require('url2');
 var contra = require('contra');
 var multi = require('multi-glob');
