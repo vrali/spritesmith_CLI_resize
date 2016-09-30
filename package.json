@@ -1,7 +1,7 @@
 {
   "name": "resizablespritesmith",
   "description": "Convert a set of images into a spritesheet and resizable CSS variables ",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "author": {
     "name": "Vinay Rali"
   },
@@ -10,7 +10,7 @@
     "url": "https://github.com/vrali/spritesmith_CLI_resize.git"
   },
   "bin": {
-    "costar-sprite-smith" : "index"
+    "costar-sprite-smith" : "./index.js"
   },
   "main": "index.js",
   "engines": {
@@ -27,7 +27,10 @@
     "through2": "~0.6.1",
     "underscore": "~1.6.0",
     "url2": "~1.0.4",
-    "yargs": "~5.0.0"
+    "yargs": "~5.0.0",
+    "mkdirp": "^0.5.0",
+    "multi-glob": "^0.4.0",
+    "contra": "^1.6.10"
   },
   "devDependencies": {
     "rimraf": "~2.2.6"
