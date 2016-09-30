@@ -1,3 +1,4 @@
+'use strict';
 // Load our dependencies
 
 var mkdirp = require('mkdirp');

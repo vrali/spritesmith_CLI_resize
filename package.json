@@ -10,9 +10,9 @@
     "url": "https://github.com/vrali/spritesmith_CLI_resize.git"
   },
   "bin": {
-    "costar-sprite-smith" : "./index.js"
+    "costar-sprite-smith" : "index"
   },
-  "main": "index",
+  "main": "index.js",
   "engines": {
     "node": ">= 0.10.0"
   },
